@@ -1,5 +1,4 @@
 # data file
-*.txt
 *.xlsx
 *.xls
 
@@ -132,3 +131,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+cookies.txt
+history.txt
