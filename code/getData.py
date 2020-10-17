@@ -53,11 +53,11 @@ except:
 
 # 登录
 driver.get('http://www.fenqubiao.com/')
-# driver.find_element_by_xpath("//input[@id='Username']").send_keys(account.username)
-# driver.find_element_by_xpath("//input[@id='Password']").send_keys(account.password)
-# time.sleep(2)
-# driver.find_element_by_xpath("//input[@id='login_button']").click()
-time.sleep(10)
+driver.find_element_by_xpath("//input[@id='Username']").send_keys(account.username)
+driver.find_element_by_xpath("//input[@id='Password']").send_keys(account.password)
+time.sleep(2)
+driver.find_element_by_xpath("//input[@id='login_button']").click()
+# time.sleep(10)
 
 url = 'http://www.fenqubiao.com/Core/BatchSearch.aspx'
 
